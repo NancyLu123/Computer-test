@@ -29,12 +29,14 @@ namespace C
                 }
               
             }
-            Console.Write(sum1+","+sum2+"\n");
+            Console.Write("奇數和："+sum1+", 偶數和："+sum2+"\n");
+            Console.Write("奇數陣列：");
             foreach (int i in C)
             {
                 Console.Write("{0} ", i);
             }
             Console.Write("\n");
+            Console.Write("偶數陣列：");
             foreach (int j in D)
             {
                 System.Console.Write("{0} ", j);
