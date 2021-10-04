@@ -11,6 +11,7 @@ namespace C
     {
         static void Main(string[] args)
         {   
+            //六、兩數總和 
             int k,k1;
             Console.WriteLine("請輸入大小:\n（必須大於等於2，小於等於103）");
             int length=int.Parse( Console.ReadLine() );
@@ -33,8 +34,6 @@ namespace C
                 //Console.WriteLine("b[{0}]={1}", k1, b[k1]);
             //}
             int[] res=TwoSum(b,target);
-            
-            //Console.Read();
             for(int q=0;q<res.Length;q++){
                 Console.WriteLine(res[q]);
             } 
@@ -44,7 +43,7 @@ namespace C
         }
 
         public static int[] TwoSum(int[] nums, int target) {
-            //六、兩數總和 
+            
             int[] ans = new int[2];
             for(int i=0;i<nums.Length;i++){
                 for(int j=i+1;i<nums.Length;j++){
