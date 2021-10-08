@@ -6,7 +6,7 @@ namespace C
         static void Main(string[] args)
         {   
 			//二、資料處理-字串
-            string topic = "人易科技:上 機 測 驗 - 演算法!";
+            string topic = "今天天氣:下 雨 天 情 - 颱風天!";
 
             //1.字元「:」改成全型)
             string one = topic.Replace(":","：");
